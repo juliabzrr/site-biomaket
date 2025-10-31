@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página Teste</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Células Animais e Vegetais</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Página teste Biomaket</h1>
-  <p>As células são as unidades básicas de todos os seres vivos. Cada célula tem partes importantes que ajudam ela a funcionar, como o núcleo, que guarda as informações, e o citoplasma, que mantém tudo no lugar. As células podem ser diferentes: a célula vegetal tem parede e cloroplastos, que ajudam a produzir comida, e a célula animal é mais flexível e não tem essas partes. Aprender sobre elas com maquetes torna tudo mais fácil e divertido de entender!</p>
+  <header>
+    <h1>🌿 Células Animais e Vegetais</h1>
+    <p>Conheça os tipos de células e seus processos de nutrição</p>
+  </header>
 
-  <img src="imagem/foto.jpg" alt="Exemplo de imagem" class="foto" width="400">
+  <main>
+    <section id="introducao">
+      <h2>O que são as células?</h2>
+      <p>
+        <div>As células são as menores unidades estruturais e funcionais dos seres vivos.
+        Elas podem ser classificadas como <strong>procarióticas</strong>(presentes em animais e plantas) ou <strong>eucarióticas</strong>.</div><div>
+        As células animal e vegetal compartilham estruturas-base como membrana plasmática, citoplasma, núcleo, mitocôndrias, ribossomos,retículo endoplasmático,</div><div> complexo de Golgi e peroxissomos.
+        As células vegetais se diferenciam por terem uma parede celular, um vacúolo central grande e cloroplastos para fotossíntese, </div><div> 
+        enquanto as células animais possuem lisossomos e centríolos, que não estão presentes na maioria das células vegetais.</div>
+      </p>
+      <img src="imagem/celula-principal.jpg" alt="Estrutura celular geral" class="imagem-principal" />
+    </section>
 
-  <video controls class="video" width="400">
-    <source src="./video/1 Minute Video - Doggie.mp4" type="video/mp4">
-    Seu navegador não suporta vídeos.
-  </video>
+    <section id="tipos">
+      <h2>Tipos de Células</h2>
+      <div class="tipo">
+        <img src="imagem/vegetal.jpg" alt="Célula procariótica" />
+        <h3>Célula Procariótica</h3>
+        <p>
+          São células simples, sem núcleo definido. Seu material genético fica disperso no citoplasma.
+          Exemplos: bactérias e cianobactérias.
+        </p>
+      </div>
+
+      <div class="tipo">
+        <img src="imagem/animal.jpg" alt="Célula eucariótica" />
+        <h3>Célula Eucariótica</h3>
+        <p>
+          Possuem núcleo bem definido e diversas organelas que realizam funções específicas.
+          São encontradas em animais, vegetais, fungos e protozoários.
+        </p>
+      </div>
+    </section>
+
+    <section id="nutricao">
+      <h2>Processos de Nutrição Celular</h2>
+      <p>
+        As células obtêm energia e nutrientes de diferentes formas. As células vegetais realizam a 
+        <strong>fotossíntese</strong>, enquanto as células animais obtêm nutrientes por meio da 
+        <strong>alimentação</strong> e da <strong>respiração celular</strong>.
+      </p>
+      <video controls width="400">
+        <source src="video/1 Minute Video - Doggie.mp4" type="video/mp4" />
+        Seu navegador não suporta vídeos.
+      </video>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Júlia Bezerra Batista 🌱</p>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>
